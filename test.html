@@ -8,39 +8,62 @@
         h1{
             color: darkblue;
         }
-        
         aside{
-            color:red;
-            border-style: double;
-            border-color: greenyellow;
-            margin: 10px;
-            padding: 10px;
+          color: red;
+          font-style: oblique;
+        }
+        
+        footer{
+            color:blue;
             
         }
         header,span{
           color: brown;
+          text-align: center;
         }
+        [href]:hover{
+          background-color: bisque;
+        }
+        #success {
+          color: black;
+          font-style: italic;
+          border-style: double;
+          border-color: greenyellow;
+          margin: 10px;
+          padding: 10px;
+
+        }
+        
     </style>
 </head>
 <body>
+<!--To check student results-->
+<header>EXAM RESULTS </header>
 
-<header>Student Details </header>
-<nav> Usn || name || Contact </nav>
+
+<main>Important:results are out</main>
+
 
 <span> Check your results here <a href="#">RESULT</a> </span>
 
+<!--Take input from the user-->
+<div>Enter your usn:</div>
 
-  <section>
-    <article>
-      <h2>Exam Results</h2>
-      <p>Everyone passed </p>
-    </article>
-  </section>
+<section>
+<p>You are passed </p>
+</section>
+
   <aside>
-    <p>Notice:School achieved 100 result!!</p>
-
+    <p><strong> School achieved 100 result!!</strong> </p>
   </aside>
 
 <footer> Congratulations!!!</footer>
 
+
+<div>
+<p id="success">This year's performance was outstanding, with a 100% pass rate and excellent scores across all departments.</p>
+</div>
+
+
 </body>
+</html>
